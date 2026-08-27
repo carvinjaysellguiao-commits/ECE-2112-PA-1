@@ -1,4 +1,7 @@
 # ECE-2112-PA-1
+
+Made by: Carvin Jaysell D. Guiao | 2ECE-D
+
 Python Implementations for Programming Assignment 1:
 
 
