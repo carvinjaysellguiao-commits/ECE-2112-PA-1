@@ -16,7 +16,7 @@ This section handles moving the leading character of a given word to the very en
     return text[1:] + text[0]
 ```
 
-The `rotate_word (text)` function shifts the leading character of a non-empty string to the end while keeping the remaining letters in their original sequence and capitalization. It achieves this in a single line using string slicing `text[1:]` to capture everything from index 1 onwards, indexing `text[0]` to isolate the first letter, and string concatenation `*`
+The `rotate_word (text)` function shifts the leading character of a non-empty string to the end while keeping the remaining letters in their original sequence and capitalization. `if len(text) == 1` checks whether the string has only one character so the function can return it immediately without performing any rotation. It then achieves this in a single line using string slicing `text[1:]` to capture everything from index 1 onwards, indexing `text[0]` to isolate the first letter, and string concatenation `*`. 
 
 **Executing test cases**
 ```python
