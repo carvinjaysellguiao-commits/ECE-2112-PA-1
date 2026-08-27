@@ -70,8 +70,8 @@ To see the main Python Programming Assignment 1, click this link [Programming As
 
 **README File Version History:**
 <br>
-August 23, 2026 - Initial README Output Uploaded
+August 25, 2026 - Initial README Output Uploaded
 <br>
-August 25, 2026 - Draft Update
+August 26, 2026 - Draft Update
 <br>
 August 27, 2026 - Finalization details and file upload
