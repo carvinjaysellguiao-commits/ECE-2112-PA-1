@@ -72,6 +72,6 @@ To see the main Python Programming Assignment 1, click this link [Programming As
 <br>
 August 23, 2026 - Initial Draft README Output Uploaded
 <br>
-August 25, 2026 - Minor detail updates
+August 25, 2026 - Minor update details
 <br>
-August 27, 2026 - Finalization details
+August 27, 2026 - Finalization details and file upload
