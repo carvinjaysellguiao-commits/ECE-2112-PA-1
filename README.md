@@ -7,7 +7,7 @@ Python Implementations for Programming Assignment 1:
 
 ## A. Word Rotation Problem
 
-This section handles moving the leading character of a given word to the very end of the string while preserving the capitalization and order of every character. The objective is to perform this rotation in a single step using basic Python string operations. 
+This section handles moving the leading character of a given word to the very end of the string while preserving the capitalization and order of every character. The objective is to perform this rotation in a single step using basic Python string operations. The required Python function `rotate_word(text)` accepts a non-empty string as input, then returns a new string in which the first character is transferred to the end while preserving the order and capitalization of all remaining characters, using string indexing or slicing to construct the result.
 
 ```python
   def rotate_word(text):
@@ -28,7 +28,7 @@ print(rotate_word("A")) #Output: "A"
 
 ## B. Username Builder Problem
 
-This section converts two input strings, a first name and a last name, into a clean, standardized username format. The objective is to process multiword or improperly capitalized names and combine them into a single `first.last` output suitable for system account creation.
+This section converts two input strings, a first name and a last name, into a clean, standardized username format. The objective is to process multiword or improperly capitalized names and combine them into a single `first.last` output suitable for system account creation. The required Python function `make_username(first_name, last_name)` takes a first name and last name as strings and produces a formatted username by converting all letters to lowercase, removing any spaces within each name, and then combining them into a single string separated by a period.
 
 
 ```python
@@ -49,7 +49,7 @@ make_username("Ana Maria", "De Leon") #Output: 'anamaria.deleon'
 
 ## C. Bookend Swap Problem
 
-This section swaps the outer boundary elements of a given list while leaving all middle elements in their original positions. The solution builds a new list to ensure the input list remains completely untouched
+This section swaps the outer boundary elements of a given list while leaving all middle elements in their original positions. The solution builds a new list to ensure the input list remains completely untouched. The required Python function `swap_bookends(items)` accepts a list with at least two elements and returns a new list where the first and last elements are swapped while the middle elements remain unchanged, using extended sequence unpacking `(first, *middle, last = items)` without modifying the original list.
 
 ```python
 def swap_bookends(items):
@@ -75,3 +75,5 @@ August 25, 2026 - Initial README Output Uploaded
 August 26, 2026 - Draft Update
 <br>
 August 27, 2026 - Finalization details and file upload
+<br>
+August 28, 2026 - Updated few details
